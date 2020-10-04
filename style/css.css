@@ -1,11 +1,22 @@
 /* 2019213952 胡吉 */
 
-body,ul,p,h1,h2,h3,h4,dl,dd,form,input,texarea,select
-{ padding:0;margin:0; font-family:arial;}
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select
+{ padding:0; margin:0; font-family:arial;}
 li { list-style:none;}
 img { border:none;}
 a { text-decoration:none;}
-a:hover { text-decoration:underline; }
+a:hover { text-decoration:underline;}
 
-body {background:#fff url(..\images\body_bg.png) repeat-x;
-}
+body { background:#fff url(../images/body_bg.png) 
+    repeat-x;}
+
+.top_menu { }
+.top_menu li { }
+.top_menu a { }
+.top_menu a:hover { }
+.top_menu .no_dot { }
+
+.top_bar { }
+.top_bar li { }
+.top_bar .phone { }
+.top_bar .help { }
